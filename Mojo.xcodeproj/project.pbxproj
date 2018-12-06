@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2BC891621B30C7C0081B18D /* PayHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC891521B30C7C0081B18D /* PayHere.swift */; };
+		C2DC37A9215CF5DE00B584BC /* PaymentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DC37A8215CF5DE00B584BC /* PaymentPage.swift */; };
 		C2E74ADA2158BB8C00BCD9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E74AD92158BB8C00BCD9D5 /* AppDelegate.swift */; };
 		C2E74ADC2158BB8C00BCD9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E74ADB2158BB8C00BCD9D5 /* ViewController.swift */; };
 		C2E74ADF2158BB8C00BCD9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E74ADD2158BB8C00BCD9D5 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		C2E74AE42158BB8D00BCD9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E74AE22158BB8D00BCD9D5 /* LaunchScreen.storyboard */; };
 		C2E74AEF2158BB8D00BCD9D5 /* MojoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E74AEE2158BB8D00BCD9D5 /* MojoTests.swift */; };
 		C2E74AFA2158BB8D00BCD9D5 /* MojoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E74AF92158BB8D00BCD9D5 /* MojoUITests.swift */; };
+		F6C741D5085630A7E116C099 /* Pods_Mojo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5927F87C796151F7340C60 /* Pods_Mojo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C5927F87C796151F7340C60 /* Pods_Mojo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mojo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B065DD276964CA6588E39823 /* Pods-Mojo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mojo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mojo/Pods-Mojo.debug.xcconfig"; sourceTree = "<group>"; };
+		C2BC891521B30C7C0081B18D /* PayHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayHere.swift; sourceTree = "<group>"; };
+		C2DC37A8215CF5DE00B584BC /* PaymentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPage.swift; sourceTree = "<group>"; };
 		C2E74AD62158BB8C00BCD9D5 /* Mojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E74AD92158BB8C00BCD9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E74ADB2158BB8C00BCD9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		C2E74AF52158BB8D00BCD9D5 /* MojoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E74AF92158BB8D00BCD9D5 /* MojoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojoUITests.swift; sourceTree = "<group>"; };
 		C2E74AFB2158BB8D00BCD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02EFDED1EBD59031F53EBA /* Pods-Mojo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mojo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mojo/Pods-Mojo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C741D5085630A7E116C099 /* Pods_Mojo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CA542B224391F2572164115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5927F87C796151F7340C60 /* Pods_Mojo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2E74ACD2158BB8C00BCD9D5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				C2E74AED2158BB8D00BCD9D5 /* MojoTests */,
 				C2E74AF82158BB8D00BCD9D5 /* MojoUITests */,
 				C2E74AD72158BB8C00BCD9D5 /* Products */,
+				EFACEFDF4417B358145839FC /* Pods */,
+				8CA542B224391F2572164115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,8 @@
 				C2E74AE02158BB8D00BCD9D5 /* Assets.xcassets */,
 				C2E74AE22158BB8D00BCD9D5 /* LaunchScreen.storyboard */,
 				C2E74AE52158BB8D00BCD9D5 /* Info.plist */,
+				C2DC37A8215CF5DE00B584BC /* PaymentPage.swift */,
+				C2BC891521B30C7C0081B18D /* PayHere.swift */,
 			);
 			path = Mojo;
 			sourceTree = "<group>";
@@ -125,6 +146,15 @@
 			path = MojoUITests;
 			sourceTree = "<group>";
 		};
+		EFACEFDF4417B358145839FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B065DD276964CA6588E39823 /* Pods-Mojo.debug.xcconfig */,
+				EA02EFDED1EBD59031F53EBA /* Pods-Mojo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2E74AFE2158BB8D00BCD9D5 /* Build configuration list for PBXNativeTarget "Mojo" */;
 			buildPhases = (
+				C11C5FEA86759AFB5E0A5847 /* [CP] Check Pods Manifest.lock */,
 				C2E74AD22158BB8C00BCD9D5 /* Sources */,
 				C2E74AD32158BB8C00BCD9D5 /* Frameworks */,
 				C2E74AD42158BB8C00BCD9D5 /* Resources */,
+				15517AF432299D05B5062C27 /* [CP] Embed Pods Frameworks */,
+				0F480DA3C969050BD2064AF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +284,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F480DA3C969050BD2064AF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mojo/Pods-Mojo-resources.sh",
+				"${PODS_ROOT}/Instamojo/JuspaySafeBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JuspaySafeBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mojo/Pods-Mojo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15517AF432299D05B5062C27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mojo/Pods-Mojo-frameworks.sh",
+				"${PODS_ROOT}/Instamojo/Instamojo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instamojo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mojo/Pods-Mojo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11C5FEA86759AFB5E0A5847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mojo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2E74AD22158BB8C00BCD9D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DC37A9215CF5DE00B584BC /* PaymentPage.swift in Sources */,
 				C2E74ADC2158BB8C00BCD9D5 /* ViewController.swift in Sources */,
+				C2BC891621B30C7C0081B18D /* PayHere.swift in Sources */,
 				C2E74ADA2158BB8C00BCD9D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +522,7 @@
 		};
 		C2E74AFF2158BB8D00BCD9D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B065DD276964CA6588E39823 /* Pods-Mojo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,13 +534,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.mirab.Mojo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C2E74B002158BB8D00BCD9D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA02EFDED1EBD59031F53EBA /* Pods-Mojo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.mirab.Mojo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -472,6 +566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37GR2UX5CZ;
 				INFOPLIST_FILE = MojoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37GR2UX5CZ;
 				INFOPLIST_FILE = MojoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,6 +609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37GR2UX5CZ;
 				INFOPLIST_FILE = MojoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,6 +630,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37GR2UX5CZ;
 				INFOPLIST_FILE = MojoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
