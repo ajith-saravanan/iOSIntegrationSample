@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Mojo
+import Mojo
 
 class MojoTests: XCTestCase {
 
