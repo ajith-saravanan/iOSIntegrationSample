@@ -14,7 +14,7 @@ class PayHere: UIViewController, OrderRequestCallBack{
     
     func fetchOrder(orderID: String, accessToken: String){
         //show spinner
-        let request = Request.init(orderID: "c5c1be1f-614a-49a8-b371-2013fec1dd91", accessToken: "6tubiXcy0vlJK9M8kToIdlSBYurRKM",  orderRequestCallBack: self)
+        let request = Request.init(orderID: "Order Id here", accessToken: "Access Token Here",  orderRequestCallBack: self)
         request.execute()
     }
     
